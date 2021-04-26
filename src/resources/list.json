@@ -1,0 +1,115 @@
+
+{
+  "data": [
+    {
+      "uuid": "0ed9ff97-e7b5-4cb2-a262-1b33e78dcd61",
+      "full_name": "CAUÃ NOAH MIGUEL DA MOTA",
+      "nick_name": "DecisiveEek",
+      "email": "ccauanoahmigueldamota@panevale.com.br",
+      "photo": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0Mzg2NzEwNF5BMl5BanBnXkFtZTcwMTI0NTgwMw@@._V1_UY256_CR32,0,172,256_AL_.jpg",
+      "age": 18,
+      "phone_number": "(11)4111-8909",
+      "country": "BRASIL",
+      "city": "SÃO PAULO"
+    },
+    {
+      "uuid": "14ffd375-eeb5-4b9e-8246-1e5a382f075d",
+      "full_name": "PIETRA NICOLE ELIANE DA CUNHA",
+      "nick_name": "DispensableRowdy",
+      "email": "pietranicoleelainedacunha@transicao.com",
+      "photo": "https://images.generated.photos/xoDRbc-MFj6oLyimW39p3Q_uw6FbuGxEbF-H7Rpg0Hg/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zLzA5/NTIxMTkuanBn.jpg",
+      "age": 18,
+      "phone_number": "",
+      "country": "BRASIL",
+      "city": "CORDEIRO"
+     
+    },
+    {
+      "uuid": "c387a24e-978a-497e-aca8-7f31e710fe66",
+      "full_name": "RICARDO THALES OLIVER JESUS",
+      "nick_name": "TediousBonemeal",
+      "email": "ricardothalesoliverjesus@csjsistemas.com.br",
+      "photo": "https://images.unsplash.com/photo-1560787313-5dff3307e257?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+      "age": 18,
+      "phone_number": "(35)98876-9090",
+      "country": "BRASIL",
+      "city": "BELO HORIZONTE"
+    },
+    {
+      "uuid": "ee78abe3-b255-45e4-8c12-006c82ae060e",
+      "full_name": "LAVÍNIA TERESINHA ROSA MELO",
+      "nick_name": "SuccinctBody",
+      "email": "llaviniateresinharosamelo@gamil.com",
+      "photo": "https://i.imgur.com/SSWYAW4.jpg",
+      "age": 18,
+      "phone_number": "(49)97780-7989",
+      "country": "BRASIL",
+      "city": "CAMPINA GRANDE"
+    },
+    {
+      "uuid": "f7bb7811-aed1-4913-b70c-fb4421ff7552",
+      "full_name": "NELSON RAUL DA SILVA",
+      "nick_name": "AcidicGlug",
+      "email": "nelsonrauldasilva-80@viavaleseguros.com.br",
+      "photo": "https://uifaces.co/our-content/donated/23Hg2d2k.jpeg",
+      "age": 18,
+      "phone_number": "(78)98765-1233",
+      "country": "BRASIL",
+      "city": "RIO BRANCO"
+    },
+    {
+      "uuid": "94d5cc11-2737-49aa-bede-eedc515357bc",
+      "full_name": "ANDREA DÉBORA EDORA",
+      "nick_name": "LamentableEdora",
+      "email": "edorafreitas@julietavinhas.fot.br",
+      "photo": "https://m.media-amazon.com/images/M/MV5BMjEyNzg2NTM4MV5BMl5BanBnXkFtZTgwMzcxNzMwNjE@._V1_UX172_CR0,0,172,256_AL_.jpg",
+      "age": 18,
+      "phone_number": "(21)97653-1020",
+      "country": "BRASIL",
+      "city": "CAMPOS DOS GOYTRACAZES"
+    },
+    { 
+      "uuid": "05a8c018-df8e-4727-a447-e2c5a56731a9",
+      "full_name": "AUGUSTO EMANUEL FREITAS",
+      "nick_name": "BerserkJax",
+      "email": "augustoemanuelfreitas@julietavinhas.fot.br",
+      "photo": "https://uifaces.co/our-content/donated/yn7PKqTT.jpg",
+      "age": 18,
+      "phone_number": "(21)92521-7990",
+      "country": "BRASIL",
+      "city": "RIO DE JANEIRO"
+    },
+    { 
+      "uuid": "5611ee9b-ad25-4c31-bee0-9812d36f8417",
+      "full_name": "BETINA TERESINHA BÁRBARA GALVÃO",
+      "nick_name": "LewdString",
+      "email": "betinateresinhabarbaragalvao@escritorioindaia.com.br",
+      "photo": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ2NjU3MzcyM15BMl5BanBnXkFtZTgwNzY1MzU2NDM@._V1_UY256_CR27,0,172,256_AL_.jpg",
+      "age": 18,
+      "phone_number": "(21)97654-2030",
+      "country": "BRASIL",
+      "city": "SÃO GONÇALO"
+    },
+    { 
+      "uuid": "fb7ed8ae-de6b-496f-916f-69a99495bbc2",
+      "full_name": "MARCELO GUSTAVO DA MOTA",
+      "nick_name": "QuirkyObie",
+      "email": "marcelogustavodamota@granadaimoveis.com.br",
+      "photo": "https://images.generated.photos/xoDRbc-MFj6oLyimW39p3Q_uw6FbuGxEbF-H7Rpg0Hg/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zLzA5/NTIxMTkuanBn.jpg",
+      "age": 18,
+      "phone_number": "(55)95344-1818",
+      "country": "BRASIL",
+      "city": "BRASILIA"
+    },
+    { 
+      "uuid": "ddbff1e3-cf9d-4b05-acc2-e7ca0795718c",
+      "full_name": "CAIO JOSÉ DRUMMOND",
+      "nick_name": "NimbleBeamer",
+      "email": "ccaiojosedrumond@cielo.com.br",
+      "photo": "https://uifaces.co/our-content/donated/b0276729371b453d8604dece7134c8de.jpeg",
+      "age": 18,
+      "phone_number": "(19)97234-9090",
+      "city": "JABOATÃO DOS GUARARAPES"
+    }
+  ]
+}

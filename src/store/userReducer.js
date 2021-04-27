@@ -1,7 +1,7 @@
 const INITIAL_STATE = {
   logged: false,
   user: {
-    nome: null,
+    name: null,
     email: null,
     phone_number: null,
     city: null,

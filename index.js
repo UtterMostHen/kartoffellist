@@ -11,7 +11,7 @@ const Kartoffellist = () => {
   return (
 		<Provider store={store}>
 			<PersistGate persistor={persistor} >
-				<App />
+				<App/>
 			</PersistGate>
 		</Provider>
 	)

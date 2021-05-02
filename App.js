@@ -11,29 +11,29 @@ const App = () => {
   const [ data, setData ] = useState({ name: '', email: '' })
   const [ loading, setLoading ] = useState(false)
 
-  const { inputStyle, btnStl } = styles
+  const { inputStyle, btnStl,footerStyle,loadingStyle,textHeaderStyle,textStyle,backgroundHeaderStyle,headerStyle,buttonViewStyle,buttonTextStyle,bodyStyle,safeAreaStyle } = styles
 
   return (
-    <SafeAreaView style={{ flex: 1}}>
+    <SafeAreaView style={safeAreaStyle}>
 
       <StatusBar barStyle='dark-content' backgroundColor='black' />
 
-      <View style={{ flex: 1, justifyContent: 'center', padding: 10 }}>
+      <View style={safeAreaStyle}>
 
-        <View style={{ flex: .4, backgroundColor: 'ivory' }}>
+        <View style={backgroundHeaderStyle}>
 
-          <Text style={{ fontSize: 20, fontWeight: 'bold' }}>User details:</Text>
+          <Text style={textHeaderStyle}>User details:</Text>
 
-          <View style={{ padding: 4 }}>
-            <Text style={{ marginVertical: 5 }}>Name: {user.name}</Text>
-            <Text style={{ marginVertical: 5 }}>email: {user.email}</Text>
+          <View style={headerStyle}>
+            <Text style={textStyle}>Name: {user.name}</Text>
+            <Text style={textStyle}>email: {user.email}</Text>
           </View>
           
         </View>
 
-        <View style={{ flex: 1, justifyContent: 'center' }}>
+        <View style={bodyStyle}>
 
-          <View style={{ flex: 1 }}>
+          <View style={bodyStyle}>
 
             <TextInput
               style={inputStyle}
@@ -57,14 +57,14 @@ const App = () => {
               onChangeText={text => setData({ ...data, email: text })}
             />
 
-            <View style={{ flex: 1, alignItems: 'center', marginVertical: 20 }}>
+            <View style={buttonViewStyle}>
               <TouchableOpacity style={btnStl} onPress={() => submitForm() }>
-                <Text style={{ color: '#FFF', fontWeight: 'bold', fontSize: 15, textAlign: 'center' }}>SALVAR</Text>
+                <Text style={buttonTextStyle}>SALVAR</Text>
               </TouchableOpacity>
             </View>
 
             { loading &&
-              <View style={{ position: 'absolute', top: 20, alignSelf: 'center' }}>
+              <View style={loadingStyle}>
                 <ActivityIndicator size='large' color='blue' />
               </View>
             }
@@ -72,7 +72,7 @@ const App = () => {
         
         </View>
 
-        <View style={{ flex: .4, backgroundColor: 'ivory'}}>
+        <View style={footerStyle}>
          
         </View>
         
@@ -100,9 +100,56 @@ const styles = StyleSheet.create({
    borderColor: '#9EA1B2',
    marginVertical: 5
  },
- btnStl: { width: 300, height: 56, backgroundColor: 'blue', borderRadius: 10, justifyContent: 'center'}
+ safeAreaStyle:{
+   flex: 1,
+   justifyContent: 'center',
+   padding: 10
+ },
+ backgroundHeaderStyle: {
+   flex: .4,
+   backgroundColor: 'ivory',
+ },
+ headerStyle: {
+   padding: 4,
+ },
+ textHeaderStyle: {
+   fontSize: 20,
+   fontWeight: 'bold',
+  },
+  textStyle: {
+  marginVertical: 5,
+  },
+  bodyStyle:{
+    flex: 1,
+    justifyContent: 'center',
+  },
+  buttonViewStyle: {
+    flex: 1, 
+    alignItems: 'center', 
+    marginVertical: 20,
+  },
+ btnStl: { 
+   width: 300,
+   height: 56,
+   backgroundColor: 'blue',
+   borderRadius: 10,
+   justifyContent: 'center'
+  },
+  buttonTextStyle: {
+    color: '#FFF',
+    fontWeight: 'bold',
+    fontSize: 15,
+    textAlign: 'center',
+  },
+ footerStyle: {
+   flex: .4,
+   backgroundColor: 'ivory',
+ },
+ loadingStyle: {
+   position: 'absolute',
+   top: 20,
+   alignSelf: 'center',
+ },
 })
 
 export default App
-
-//this is a test

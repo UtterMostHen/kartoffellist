@@ -104,3 +104,5 @@ const styles = StyleSheet.create({
 })
 
 export default App
+
+//this is a test
